@@ -1,0 +1,20 @@
+.resonsive {
+    position: relative;
+    width: 50%;
+}
+
+.resonsive::before {
+    display: block;
+    content: "";
+    width: 100%;
+}
+.item-50 {
+    padding-top: 50%;
+}
+.resonsive>.responsive-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
